@@ -28,17 +28,17 @@
 </template>
 
 <script>
-import lottie from 'lottie-web';
+import lottie from "lottie-web";
 
 export default {
     mounted() {
         lottie.loadAnimation({
             container: this.$refs.lottie,
-            renderer: 'svg',
+            renderer: "svg",
             loop: true,
             autoplay: true,
-            path: '/animations/spinner.json'
+            path: "/animations/spinner.json",
         });
-    }
+    },
 };
 </script>
